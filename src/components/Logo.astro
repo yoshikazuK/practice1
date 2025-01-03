@@ -1,0 +1,7 @@
+---
+import { siteInfomation } from "@/config";
+import { Image } from "astro:assets";
+import LogoImage from "@/image/logo.png";
+---
+
+<Image src={LogoImage} alt={siteInfomation.name} width={64} height={64} />
